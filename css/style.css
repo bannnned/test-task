@@ -113,11 +113,11 @@ body {
 }
 
 .current::before {
-    content: url('./img/success.png');
+    content: url('/img/success.png');
 }
 
 .target::before {
-    content: url('./img/flag-icon.png');
+    content: url('/img/flag-icon.png');
 }
 
 .right {
@@ -227,7 +227,7 @@ body {
 }
 
 .content-section__flag::after {
-    content: url('./img/flag-icon.png');
+    content: url('/img/flag-icon.png');
     margin-left: 10px;
     margin-top: 5px;
 }
