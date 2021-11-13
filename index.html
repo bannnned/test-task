@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Блок "Мои Цели"</title>
+  </head>
+  <body>
+    <section class="main">
+        <!-- Секция с изображением -->
+      <div class="image-section">
+        <div class="image-section__image">
+          <img src="./img/Mountain.png" alt="" />
+        </div>
+        <!-- Полоса прогресса -->
+        <div class="image-section__progress empty"></div>
+        <div class="image-section__progress filled"></div>
+        <!-- Позиции -->
+        <div class="image-section__all-positions">
+          <div class="image-section__position">
+            <div class="flag"></div>
+            <p class="image-section__position-text inactive-text">
+              Начальник цеха
+            </p>
+            <!-- Класс right указывает положение горизонтальной линии-->
+            <div class="image-section__line right"></div>
+          </div>
+          <div class="image-section__position">
+            <div class="flag"></div>
+            <p class="image-section__position-text inactive-text">
+              Зам. начальника цеха
+            </p>
+
+            <div class="image-section__line"></div>
+          </div>
+
+          <div class="image-section__position">
+            <div class="flag target"></div>
+            <p class="image-section__position-text">Старший мастер</p>
+            <!-- Класс right указывает положение горизонтальной линии-->
+            <div class="image-section__line right"></div>
+          </div>
+          <div class="image-section__position success">
+            <!-- current - значок текущей позиции (круглый чекмарк), target - цель (флажок) -->
+            <div class="flag current"></div>
+            <p class="">Мастер участка</p>
+            <div class="image-section__line success"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Секция с текстом -->
+      <div class="content-section">
+        <div class="content-section__header">
+          <div class="content-section__name">
+            <h1 class="content-section__h1 content-section__target-header">
+              Цель № 2
+            </h1>
+            <div class="content-section__buttons">
+              <button class="content-section__edit">
+                <img src="./img/edit-icon.png" alt="" />
+              </button>
+              <button class="content-section__delete">
+                <img src="./img/delete-icon.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <p class="content-section__p">Должность</p>
+          <h1 class="content-section__h1">Начальник цеха</h1>
+          <p class="content-section__p">Цех</p>
+          <h1 class="content-section__h1">
+            ЛПЦ 11: Пятиклеевой стан холодной прокатки
+          </h1>
+        </div>
+        <div class="content-section__criteria">
+          <div class="content-section__criteria-header">
+            <h1 class="content-section__h1-criteria">Критерии достижения</h1>
+            <img
+              class="content-section__info"
+              src="./img/info-icon.png"
+              title="Чтобы достигнуть цели, надо пройти все уровни"
+              alt=""
+            />
+          </div>
+          <h1 class="content-section__h1 content-section__flag">
+            Старший мастер
+          </h1>
+          <!-- Критерии -->
+          <ul class="content-section__criteria-list">
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                  Word
+              </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                  Excel
+                </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                  Powerpoint
+                </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                  OEBS
+                </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                Уровень владения английским
+              </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker unsuccess">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                Регультаты ЕОП3
+              </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker unsuccess">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                Тестирование по общим вопросам
+              </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                Тестирование по специальным вопросам
+              </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                Результат аттестации РСС
+              </li>
+            </div>
+            <div class="content-section__criteria-element-wrapper">
+                <div class="content-section__marker success">
+                    <img class="content-section__checkmark"src="/img/checkmark-16.png" alt="">
+                </div>
+              <li class="content-section__criteria-element">
+                Опыт работы руководителем
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
